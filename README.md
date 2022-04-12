@@ -1,9 +1,25 @@
-# 5기 미니 프로젝트 1조   
+
        
+<p align='center'>
+<img src='https://user-images.githubusercontent.com/69666944/162966332-9a3d2d9f-6864-49ce-8247-84bfa9d9e501.png' width='60%' />
+</p>
+
+<p align='center'>
+  <img src='https://img.shields.io/badge/React-v17.0.2-61DAFB?logo=React'/>
+  <img src='https://img.shields.io/badge/ReactRouter-v5.2.1-CA4245?logo=React Router'/>
+  <img src='https://img.shields.io/badge/StyledComponents-v5.3.3-DB7093?logo=styled-components'/>
+  <img src='https://img.shields.io/badge/Redux-v4.1.2-764ABC?logo=Redux'/>
+  <img src='https://img.shields.io/badge/immer-v9.0.12-00E7C3?logo=immer'/>
+  <img src='https://img.shields.io/badge/yarn-v1.22.15-blue?logo=yarn'/>
+  <img src='https://img.shields.io/badge/AWS-Amazon AWS-yellow?logo=Amazon AWS'/>
+  <img src='https://img.shields.io/badge/prettier-v9.5.0-F7B93E?logo=prettier'/>
+</p> 
+
+# 5기 미니 프로젝트 1조   
 + 팀명 : 모임의 민족 (momin)      
 + 주제 : 모임을 하고자 하는 사람들 모이는 
        
-       
+      
        
 ## GitHub Repogitory      
       
@@ -24,7 +40,11 @@
 - 23 : 00 FrontEnd 저녁 진행상황 공유, Repo에 4차 Push & Merge
 - 23 : 00 ~ 자유롭게 작업 및 휴식     
 
-      
+## 📌 시연 연상
+
+|                                                          <a>🔗로그인/회원가입</a>                                                           |                                                       <a>🔗로그인</a>                                                        |                                                       <a>🔗사용영상</a>                                                        |                                                          <a>🔗모바일 최적화</a> 
+| :-------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | 
+| <img width="320" alt="회원가입" src="https://user-images.githubusercontent.com/69666944/162965677-db3e8f71-173f-4f5b-bc7a-130dc1eb95a4.gif"> | <img width="320" alt="로그인" src="https://user-images.githubusercontent.com/69666944/162965675-4cf26d91-bd72-4652-95b9-f3451fec97e6.gif"> | <img width="320" alt="사용영상" src="https://user-images.githubusercontent.com/69666944/162965664-ae306f02-c920-4ee5-a96a-8c029d43af8e.gif"> | <img width="320" alt="모바일 최적화" src="https://user-images.githubusercontent.com/69666944/162965652-6242d07a-4a1d-440a-8255-4685a3c62fd6.gif"> | 
             
                   
 ## [API 설계](https://www.notion.so/b9b3652faef14f26937b8fd8c8725736)       
