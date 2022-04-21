@@ -9,6 +9,8 @@ import styled from "styled-components"
 
 import IdCheck from "../shared/idCheck"
 
+import EmailCheck from "../shared/emailCheck"
+
 const Signup = (props) => {
   const dispatch = useDispatch()
   const state = useSelector((state) => state.user)
@@ -67,7 +69,7 @@ const Signup = (props) => {
 
   //email 중복 확인
   const emailCheck = () => {
-    if (!IdCheck(user_email)) {
+    if (!EmailCheck(user_email)) {
       window.alert("이메일 형식이 틀렸습니다. 다시 확인해 주세요")
       return
     }
@@ -77,6 +79,10 @@ const Signup = (props) => {
 
   //nickName 중복 확인
   const nicknameCheck = () => {
+    if (!IdCheck(user_nickname)) {
+      window.alert("닉네임 형식이 틀렸습니다. 다시 확인해 주세요")
+      return
+    }
     dispatch(userActions.nicknameCheckDB(user_nickname))
     setConfirmNickname(false)
   }
